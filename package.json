@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run dev",
+    "backend": "cd backend && uvicorn app.main:app --reload"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.14.2"
+  }
+}
